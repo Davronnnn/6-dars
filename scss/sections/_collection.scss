@@ -1,0 +1,41 @@
+.our-collection {
+	background-image: url('../img/bg-img.svg');
+	background-repeat: no-repeat;
+	height: 196px;
+	margin-left: 80px;
+	padding-top: 100px;
+	margin-bottom: 400px;
+
+	&__card {
+		list-style: none;
+		width: 1111px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: space-between;
+		/* margin-top: 00px; */
+	}
+	&__img {
+		width: 255px;
+		height: 193px;
+	}
+	&__heading {
+		font-family: 'Fraunces 9pt';
+		font-style: normal;
+		font-weight: 900;
+		font-size: 24px;
+		line-height: 32px;
+		text-align: center;
+		color: #333d4b;
+	}
+	&__content {
+		font-family: 'Barlow';
+		font-style: normal;
+		width: 255px;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 26px;
+		text-align: center;
+		color: #333d4b;
+	}
+}

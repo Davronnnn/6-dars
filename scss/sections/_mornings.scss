@@ -1,0 +1,40 @@
+.mornings {
+	background-image: url('../../img/Bitmap.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	border-radius: 10px;
+	margin-bottom: 136px;
+
+	&__box {
+		width: 493px;
+		padding-top: 117px;
+		padding-bottom: 116px;
+		padding-left: 85px;
+	}
+	&__heading {
+		@extend %main-font;
+		width: 493px;
+		font-weight: 900;
+		font-size: 72px;
+		line-height: 72px;
+		color: #fefcf7;
+	}
+	&__text {
+		@extend %main-font;
+		width: 445px;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 26px;
+		color: #fefcf7;
+		opacity: 0.8;
+	}
+	&__button {
+		widows: 217px;
+		background-color: #0e8784;
+		border-radius: 6px;
+		padding: 15px 45px;
+		text-align: center;
+		margin-top: 26px;
+	}
+}

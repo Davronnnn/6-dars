@@ -1,0 +1,123 @@
+.card {
+	&__heading {
+		width: 255px;
+		padding-left: 80px;
+		font-family: 'Fraunces 9pt';
+		font-style: normal;
+		font-weight: 900;
+		font-size: 24px;
+		line-height: 32px;
+		color: #83888f;
+		margin-bottom: 80px;
+	}
+	&__works-line {
+		display: flex;
+		align-items: center;
+		text-align: center;
+		margin-bottom: 82px;
+		padding-left: 80px;
+	}
+	&__img {
+		widows: 31px;
+		height: 31px;
+		margin: 0;
+		padding: 0;
+	}
+	&__line {
+		width: 310px;
+		height: 2px;
+		background-color: #fdd6ba;
+	}
+
+	&__title {
+		width: 1045px;
+		list-style: none;
+		display: flex;
+		align-items: center;
+		padding-left: 80px;
+		/* text-align: center; */
+		justify-content: space-between;
+
+		// &-heding {
+		// 	padding: 0;
+		// 	margin: 0;
+		// 	margin-bottom: 42px;
+		// 	font-family: 'Fraunces 9pt';
+		// 	font-style: normal;
+		// 	font-weight: 900;
+		// 	font-size: 32px;
+		// 	line-height: 36px;
+		// 	color: #333d4b;
+		// 	width: 210px;
+		// }
+
+		// &-list {
+		// 	width: 285px;
+
+		// 	&-img {
+		// 		width: 98px;
+		// 		height: 72px;
+		// 		margin-right: 95px;
+		// 		margin-bottom: 38px;
+		// 	}
+		// }
+		// &-text {
+		// 	width: 285px;
+		// 	padding: 0;
+		// 	margin: 0;
+		// 	margin-bottom: 64px;
+		// 	font-family: 'Barlow';
+		// 	font-style: normal;
+		// 	font-weight: 400;
+		// 	font-size: 16px;
+		// 	line-height: 26px;
+		// 	color: #333d4b;
+		// }
+	}
+
+	&__title-heding {
+		padding: 0;
+		margin: 0;
+		margin-bottom: 42px;
+		font-family: 'Fraunces 9pt';
+		font-style: normal;
+		font-weight: 900;
+		font-size: 32px;
+		line-height: 36px;
+		color: #333d4b;
+		width: 210px;
+	}
+
+	&__title-list {
+		width: 285px;
+	}
+	&__title-img {
+		width: 98px;
+		height: 72px;
+		margin-right: 95px;
+		margin-bottom: 38px;
+	}
+	&__title-text {
+		width: 285px;
+		padding: 0;
+		margin: 0;
+		margin-bottom: 64px;
+		font-family: 'Barlow';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 26px;
+		color: #333d4b;
+	}
+
+	&__button-1 {
+		widows: 217px;
+		background-color: #0e8784;
+		border: solid 1.5px #0e8784;
+		border-radius: 6px;
+		padding: 15px 45px;
+		text-align: center;
+		margin-left: 80px;
+		margin-bottom: 200px;
+	}
+}

@@ -1,0 +1,68 @@
+$main-color: #020202;
+$width-container: 350px;
+
+.header {
+	max-width: 90%;
+	@extend %flex-c-sb;
+
+	margin-bottom: 45px;
+	margin-top: 50px;
+
+	&__box {
+		flex-direction: row;
+		width: $width-container;
+		@extend %flex-c-sb;
+	}
+
+	&__link {
+		text-decoration: none;
+		color: #83888f;
+
+		&:hover {
+			color: $main-color;
+		}
+	}
+	&__hamburger-icon {
+		display: none;
+		width: 30px;
+		height: 30px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.header {
+		&__box {
+			margin-left: 12vw;
+		}
+		&__link {
+			font-size: 12px;
+		}
+	}
+}
+@media only screen and (max-width: 598px) {
+	.header {
+		&__img {
+			width: 163px;
+			height: 20px;
+		}
+		&__link {
+			font-size: 12px;
+		}
+		&__box {
+			flex-direction: column;
+			margin-left: 3vw;
+		}
+		&__hamburger-icon {
+			display: block;
+			cursor: pointer;
+		}
+		& &__box {
+			display: none;
+			// top: 0;
+			// left: 0;
+			// position: absolute;
+			// width: 100vh;
+			// height: 100vh;
+			// background-color: rgba(02, 02, 02, 0.5);
+		}
+	}
+}

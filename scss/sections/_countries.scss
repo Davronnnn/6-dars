@@ -1,0 +1,46 @@
+.countries {
+	width: 1045px;
+	margin-left: 165px;
+	margin-bottom: 168px;
+}
+.countries__heading {
+	padding: 0;
+	margin: 0;
+	margin-left: 50px;
+	margin-bottom: 72px;
+	font-family: 'Fraunces 9pt';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 32px;
+	color: #83888f;
+}
+.countries__item {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+.countries__item-list {
+	margin-right: 95px;
+}
+// .countries__img-icon {
+
+// }
+.countries__heading-h3 {
+	font-family: 'Fraunces 9pt';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 36px;
+	color: #333d4b;
+}
+.countries__text {
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #333d4b;
+	widows: 130px;
+	height: 120px;
+}
